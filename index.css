@@ -1,0 +1,150 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #fafafa;
+    padding: 10px;
+    position: sticky;
+}
+
+.shockedpikachu {
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+    color: #fafafa;
+    padding: 11px;
+}
+
+a.grid {
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+a.grid:hover {
+    background-color: transparent;
+    padding: 0;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("portfolio/images/professional-headshot.jpg");
+  height: 80%;
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  font-family: 'Lobster';
+  top: 75%;
+  line-height: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.ocasio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/writingsamples.jpg);
+    background-size: cover;
+    background-position: 50% 25%;
+    margin-top: 5px;
+    color: #fafafa;
+    padding-top: 85px;
+    font-family: 'Lobster', cursive;
+    grid-area: ocasio;
+}
+
+.cortez {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/resume.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+    color: #fafafa;
+    padding-top: 85px;
+    font-family: 'Lobster', cursive;
+    grid-area: cortez;
+}
+
+.mulan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/wireframes.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fafafa;
+    padding-top: 85px;
+    font-family: 'Lobster', cursive;
+    grid-area: mulan;
+}
+
+.gaia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/environment.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fafafa;
+    padding-top: 85px;
+    line-height: 95%;
+    font-family: 'Lobster', cursive;
+    grid-area: gaia;
+}
+
+.vangogh {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/paintchip.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fafafa;
+    padding-top: 85px;
+    font-family: 'Lobster', cursive;
+    grid-area: vangogh;
+}
+
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fafafa;
+    padding-top: 85px;
+    font-family: 'Lobster', cursive;
+    grid-area: contact;
+}
+
+.gridwrapper {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(250px, auto);
+    grid-gap: 10px;
+    grid-template-areas: 
+        "ocasio cortez"
+        "mulan gaia"
+        "vangogh contact";
+}
