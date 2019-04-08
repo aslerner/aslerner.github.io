@@ -1,0 +1,103 @@
+
+body, html {
+    background-color: #3b3b3b;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #fafafa;
+    padding: 10px;
+    position: sticky;
+}
+
+.shockedpikachu {
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+    color: #fafafa;
+    padding: 11px;
+}
+
+h1 { 
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    line-height: 20%;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.headline {
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    padding: 0px 10px 15px 10px;
+    background-color: #798BA4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: headline;
+}
+
+.educate {
+    padding: 0px 10px 15px 10px; 
+    margin: 10px;
+    background-color: #798BA4;
+    grid-area: educate;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.madskills {
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    background-color: #798BA4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: madskills;
+}
+
+.course {
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    background-color: #798BA4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: course;
+}
+
+.werk {
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    background-color: #798BA4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: werk;
+}
+
+.gridwrapper {
+    color: white;
+    background-color: #3b3b3b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+        "headline headline headline"
+        "educate educate madskills"
+        "course course madskills"
+        "werk werk werk";
+}

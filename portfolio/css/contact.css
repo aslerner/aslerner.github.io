@@ -1,0 +1,48 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #20273a;
+}
+
+nav {
+    background-color: #fafafa;
+    padding: 10px;
+    position: sticky;
+}
+
+.shockedpikachu {
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+    color: #fafafa;
+    padding: 11px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: #fafafa;
+    padding: 0px 40px 0px 60px;
+    position: absolute;
+    top: 10%;
+}
+
+article {
+    background-color: #fafafa;
+    position: absolute;
+    top: 31%;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}

@@ -1,0 +1,57 @@
+
+body, html {
+    background-color: #20273a;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #fafafa;
+    padding: 10px;
+    position: sticky;
+}
+
+.shockedpikachu {
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+    color: #fafafa;
+    padding: 11px;
+}
+
+.face {
+    border-radius: 50%;
+    width: 35%;
+    float: right;
+    padding: 5%;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    color: #fafafa;
+    padding: 10%;
+    position: absolute;
+    top: 22%;
+    left: 12%;
+}
+
+.blurb {
+    background-color: #fafafa;
+    position: absolute;
+    padding: 5px 20px 5px 20px;
+    top: 55%;
+    left: 20%;
+    color: #0a0a0a;
+    width: 47%;
+    border-radius: 4%;
+    margin-bottom: 40px;
+}
