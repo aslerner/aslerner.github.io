@@ -16,6 +16,22 @@ nav {
     padding: 5px;
 }
 
+button {
+    margin-bottom: 20px;
+    transition: .8s ease-in-out;
+    font-size: 12px;
+}
+
+button a {
+    text-decoration: none;
+    color: #111;
+}
+
+button a:hover {
+    background-color: transparent;
+    padding: 0px;
+}
+
 a {
     text-decoration: none;
 }
@@ -72,7 +88,7 @@ a.grid:hover {
   color: white;
 }
 
-.ocasio {
+.am-home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/writingsamples.jpg);
     background-size: cover;
     background-position: 50% 25%;
@@ -83,7 +99,7 @@ a.grid:hover {
     grid-area: ocasio;
 }
 
-.cortez {
+.resume-home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/resume.jpg);
     background-size: cover;
     background-position: center;
@@ -94,7 +110,7 @@ a.grid:hover {
     grid-area: cortez;
 }
 
-.mulan {
+.ux-home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/wireframes.jpg);
     background-size: cover;
     background-position: center;
@@ -104,7 +120,7 @@ a.grid:hover {
     grid-area: mulan;
 }
 
-.gaia {
+.uxr-home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/environment.jpg);
     background-size: cover;
     background-position: center;
@@ -115,7 +131,7 @@ a.grid:hover {
     grid-area: gaia;
 }
 
-.vangogh {
+.others {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/paintchip.jpg);
     background-size: cover;
     background-position: center;

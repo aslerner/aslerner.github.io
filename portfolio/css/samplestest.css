@@ -120,10 +120,11 @@ a.sample:hover {
     grid-auto-rows: minmax(300px, auto);
     grid-gap: 1px;
     grid-template-areas: 
+        "earth client"
         "manual grant"
         "lavenderscare gibson"
         "bellevue cadycolman"
-        "earth client";
+        ;
 }
 
 
