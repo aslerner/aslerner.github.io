@@ -121,7 +121,7 @@ a.grid:hover {
 }
 
 .uxr-home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/environment.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(portfolio/images/uxmeeting.jpg);
     background-size: cover;
     background-position: center;
     color: #fafafa;

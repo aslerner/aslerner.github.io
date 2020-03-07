@@ -39,7 +39,7 @@ a.sample:hover {
 }
 
 .teas {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/wireframes.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nicholsfamily.png);
     background-size: cover;
     background-position: center;
     padding: 105px 30px 0 30px;
@@ -48,7 +48,7 @@ a.sample:hover {
 }
 
 .votes {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/environment2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/votes.jpg);
     background-size: cover;
     background-position: center;
     padding: 105px 30px 0 30px;
@@ -57,7 +57,7 @@ a.sample:hover {
 }
 
 .pets {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/word.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/pets.jpg");
     background-size: cover;
     background-position: center;
     padding: 95px 30px 0 30px;
@@ -66,7 +66,7 @@ a.sample:hover {
 }
 
 .books {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/ladyliberty.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/books.jpg");
     background-size: cover;
     background-position: center top;
     padding: 95px 30px 0 30px;
