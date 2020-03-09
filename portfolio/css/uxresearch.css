@@ -132,3 +132,11 @@ a.sample:hover {
   padding: 26px 32px;
 /*    margin: -30px 28px;*/
 }
+
+.text a {
+    color: #fff;
+}
+
+.text a:hover {
+    padding: 0;
+}
