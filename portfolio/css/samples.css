@@ -19,14 +19,19 @@ nav {
 
 a {
     text-decoration: none;
+    color: #20273a;
 }
 
 a:hover {
-    background-color: #555;
+    background-color: #20273a;
     color: #fafafa;
     padding: 11px;
+    text-align: center;
 }
 
+a:active {
+    color: #20273a; 
+}
 
 .manual {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/word.png");
